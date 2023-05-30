@@ -16,7 +16,7 @@ All three solutions, minikube, k3d, and kind are very similar to each other. All
 
 ## Demo
 
-[![asciicast](https://asciinema.org/a/FZF47t1Zc6eRxoTwZ92owr2Pe.svg)](https://asciinema.org/a/FZF47t1Zc6eRxoTwZ92owr2Pe)
+![Image](.data/demo.gif)
 
 ## Installation Steps
 
