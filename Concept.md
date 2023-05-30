@@ -16,7 +16,7 @@ All three solutions, minikube, k3d, and kind are very similar to each other. All
 
 ## Demo
 
-![Image](.data/demo.gif)
+![scratch demo](https://github.com/ZombieRebel/AsciiArtify/blob/main/.data/demo.gif?raw=true)
 
 ## Installation Steps
 
