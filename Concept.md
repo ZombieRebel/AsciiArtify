@@ -16,4 +16,16 @@ All three solutions, minikube, k3d, and kind are very similar to each other. All
 
 ## Demo
 
+https://asciinema.org/a/FZF47t1Zc6eRxoTwZ92owr2Pe
+
+## Installation Steps
+
+1. Download the project 
+2. Install KinD `go install sigs.k8s.io/kind@v0.19.0`
+3. Create a Kind cluster `kind create cluster`
+4. Deploy the Hello World application using the following command `kubectl apply -f hello-world.yaml`
+5. Verify the deployment `kubectl get pods`
+6. To view the output of the "Hello, World!" application, run the following command `kubectl logs hello-world`
+You should see the output Hello, World! printed in the terminal
+
 
