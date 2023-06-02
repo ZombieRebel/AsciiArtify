@@ -1,0 +1,305 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\Zombie Rebel\Documents\DevOps_Prometheus\devOps_task4-1
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 148
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 36
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 694
+    content: "\e[?25l\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\e[6;1H\e]0;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 104
+    content: 'PS C:\Users\Zombie Rebel\Documents\DevOps_Prometheus\devOps_task4-1> '
+  - delay: 26816
+    content: "\e[93mw"
+  - delay: 9
+    content: "\e[m\e[93m\bwget \e[90m-O \e[m/tmp/g.png https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272"
+  - delay: 9
+    content: "\e[?25l\e[93m\e[6;70Hwget \e[90m-O \e[m/tmp/g.png https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png\e[?25h"
+  - delay: 458
+    content: "\r\n"
+  - delay: 328
+    content: "\e[38;5;9mwget : Could not find a part of the path 'C:\\tmp\\g.png'.\r\nAt line:1 char:1\r\n+ wget -O /tmp/g.png https://www.google.com/images/branding/googlelogo/ ...\r\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (:) [Invoke-WebRequest], DirectoryNotFoundException\r\n    + FullyQualifiedErrorId : System.IO.DirectoryNotFoundException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand\r\n \e[m\r\nPS C:\\Users\\Zombie Rebel\\Documents\\DevOps_Prometheus\\devOps_task4-1> "
+  - delay: 4199
+    content: "\e[93mwget \e[90m-O \e[m/tmp/g.png https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+  - delay: 752
+    content: "\e[?25l\e[93m\e[15;70Hterminalizer.cmd \e[mrecord demo                                                   \e[K\r\n\e[22X\e[15;98H\e[?25h"
+  - delay: 680
+    content: "\e[?25l\e[93m\e[15;70Hterminalizer.cmd \e[mrecord     \e[15;94H\e[?25h"
+  - delay: 147
+    content: "\e[?25l\e[93m\e[15;70Hterminalizer.cmd        \e[15;87H\e[?25h"
+  - delay: 9
+    content: "\e[m"
+  - delay: 124
+    content: "\e[?25l\e[93m\e[15;70Hterminalizer.    \e[15;83H\e[?25h"
+  - delay: 8
+    content: "\e[m"
+  - delay: 1049
+    content: "\e[?25l\e[15;70H\e[13X\e[?25h"
+  - delay: 201
+    content: ' '
+  - delay: 759
+    content: "\b \e[93mr"
+  - delay: 8
+    content: "\e[m"
+  - delay: 72
+    content: "\e[?25l\e[15;70H \e[93mre\e[?25h"
+  - delay: 8
+    content: "\e[m"
+  - delay: 135
+    content: "\e[?25l\e[15;70H \e[93mren\e[?25h"
+  - delay: 8
+    content: "\e[m"
+  - delay: 233
+    content: "\e[?25l\e[15;70H \e[93mrend\e[?25h"
+  - delay: 8
+    content: "\e[m"
+  - delay: 71
+    content: "\e[?25l\e[15;70H \e[93mrende\e[?25h"
+  - delay: 8
+    content: "\e[m"
+  - delay: 89
+    content: "\e[?25l\e[15;70H \e[93mrender\e[?25h"
+  - delay: 9
+    content: "\e[m"
+  - delay: 255
+    content: "\r\n"
+  - delay: 53
+    content: "\e[38;5;9mrender : The term 'render' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, o\r\nr if a path was included, verify that the path is correct and try again.\r\nAt line:1 char:2\r\n+  render\r\n+  ~~~~~~\r\n    + CategoryInfo          : ObjectNotFound: (render:String) [], CommandNotFoundException\r\n    + FullyQualifiedErrorId : CommandNotFoundException\r\n \r\n"
+  - delay: 8
+    content: "\e[mPS C:\\Users\\Zombie Rebel\\Documents\\DevOps_Prometheus\\devOps_task4-1> "
+  - delay: 715
+    content: " \e[93mrender"
+  - delay: 8
+    content: "\e[m"
+  - delay: 605
+    content: "\e[?25l\e[24;70H \e[93mrender \e[?25h"
+  - delay: 8
+    content: "\e[m"
+  - delay: 962
+    content: "\e[?25l\e[24;70H        \e[24;70H\e[?25h"
+  - delay: 737
+    content: "\e[93mt"
+  - delay: 9
+    content: "\e[m"
+  - delay: 54
+    content: "\e[93m\bte"
+  - delay: 8
+    content: "\e[m"
+  - delay: 120
+    content: "\e[?25l\e[93m\e[24;70Hter\e[?25h"
+  - delay: 9
+    content: "\e[m"
+  - delay: 450
+    content: "\e[?25l\e[93m\e[24;70Hterm\e[?25h"
+  - delay: 8
+    content: "\e[m"
+  - delay: 332
+    content: "\e[?25l\e[93m\e[24;70Htermi\e[?25h"
+  - delay: 8
+    content: "\e[m"
+  - delay: 122
+    content: "\e[?25l\e[93m\e[24;70Htermin\e[?25h"
+  - delay: 9
+    content: "\e[m"
+  - delay: 191
+    content: "\e[?25l\e[93m\e[24;70Htermina\e[?25h"
+  - delay: 9
+    content: "\e[m"
+  - delay: 133
+    content: "\e[?25l\e[93m\e[24;70Hterminal\e[?25h"
+  - delay: 9
+    content: "\e[m"
+  - delay: 233
+    content: "\e[?25l\e[93m\e[24;70Hterminali\e[?25h"
+  - delay: 8
+    content: "\e[m"
+  - delay: 128
+    content: "\e[?25l\e[93m\e[24;70Hterminaliz\e[?25h"
+  - delay: 9
+    content: "\e[m"
+  - delay: 351
+    content: "\e[?25l\e[93m\e[24;70Hterminalizr\e[?25h"
+  - delay: 8
+    content: "\e[m"
+  - delay: 241
+    content: "\e[?25l\e[24;70H\e[11X\e[?25h"
+  - delay: 60
+    content: "\e[93me"
+  - delay: 8
+    content: "\e[m"
+  - delay: 52
+    content: "\e[93m\ber"
+  - delay: 9
+    content: "\e[m"
+  - delay: 61
+    content: "\e[?25l\e[93m\e[24;70Her \e[?25h"
+  - delay: 9
+    content: "\e[m"
+  - delay: 511
+    content: "\e[?25l\e[24;70H   \e[24;70H\e[?25h"
+  - delay: 1330
+    content: "\e[93mt"
+  - delay: 9
+    content: "\e[m"
+  - delay: 44
+    content: "\e[93m\bte"
+  - delay: 9
+    content: "\e[m"
+  - delay: 151
+    content: "\e[?25l\e[93m\e[24;70Hter\e[?25h"
+  - delay: 8
+    content: "\e[m"
+  - delay: 231
+    content: "\e[?25l\e[93m\e[24;70Hterm\e[?25h"
+  - delay: 8
+    content: "\e[m"
+  - delay: 249
+    content: "\e[?25l\e[93m\e[24;70Htermn\e[?25h"
+  - delay: 8
+    content: "\e[m"
+  - delay: 376
+    content: "\e[?25l\e[24;70H     \e[24;70H\e[?25h"
+  - delay: 256
+    content: "\e[93mi"
+  - delay: 9
+    content: "\e[m"
+  - delay: 54
+    content: "\e[93m\bin"
+  - delay: 8
+    content: "\e[m"
+  - delay: 312
+    content: "\e[?25l\e[24;70H  \e[24;70H\e[?25h"
+  - delay: 738
+    content: "\e[93mt"
+  - delay: 9
+    content: "\e[m"
+  - delay: 60
+    content: "\e[93m\bte"
+  - delay: 9
+    content: "\e[m"
+  - delay: 825
+    content: "\e[?25l\e[24;70H  \e[24;70H\e[?25h"
+  - delay: 537
+    content: "\e[93me"
+  - delay: 8
+    content: "\e[m"
+  - delay: 202
+    content: "\e[93m\bex"
+  - delay: 8
+    content: "\e[m"
+  - delay: 102
+    content: "\e[?25l\e[93m\e[24;70Hexi\e[?25h"
+  - delay: 9
+    content: "\e[m"
+  - delay: 181
+    content: "\e[?25l\e[92m\e[24;70Hexit\e[?25h"
+  - delay: 9
+    content: "\e[m"
+  - delay: 384
+    content: "\r\n"
